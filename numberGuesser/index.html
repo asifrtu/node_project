@@ -1,0 +1,38 @@
+<html>
+
+<body>
+<h3 class="display-4 text-center text-muted text-capitalize"></h3>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="text-muted text-capitalize">
+        <span class="text-primary">JavaScript</span> Number guessing game
+      </h1>
+
+      <p class="lead">
+        Simply enter a number between 1 - 100 then click the button
+      </p>
+    </div>
+    <div class="col-md-6">
+      <div class="mt-4 d-inline-block">
+        <form>
+          <label for="guessField" id="guess">Guess a number : </label
+          ><input type="text" id="guessField" class="guessField" />
+          <input type="submit" value="Submit guess" id="subt" class="guessSubmit" />
+          </form>
+
+        <div class="resultParas text-center lead">
+          <p>Previous Guesses: <span class="guesses"></span></p>
+          <p>Guesses Remaining: <span class="lastResult"></p></span>
+          <p class="lowOrHi"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="display-4 text-center text-muted text-capitalize"></h3>
+<script src="codechai.js"></script>
+</body>
+
+</html>
